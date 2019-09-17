@@ -1,0 +1,33 @@
+/* Main style */
+
+
+
+/* header */
+
+
+
+
+/* burger menu */
+
+.burger_menu
+{
+display : none;
+
+
+
+}
+
+
+
+/* Mobile view */
+
+
+
+
+
+/* Desktop view */
+@media screen and (min-width : 768px)
+
+
+
+
