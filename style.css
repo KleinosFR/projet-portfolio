@@ -1,7 +1,7 @@
 /* ----- Main style ----- */
+/*Couleurs : colors, background, affichage général*/
 
 .width_adjust{
-
     width : 90vw; 
 }
 
@@ -27,15 +27,17 @@ font-family: roboto;
     right : 20px;
     opacity : 0.8;
 
+    margin: 0;
 }
 
-/* burger menu */
-
-.burger_menu
-{
-display : none;
-
+.position_main_page{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+
 
 
 /* ----- Desktop view ----- */
@@ -47,6 +49,11 @@ display : none;
     padding-top : 0px;
 }
 
+/* main page */
+
+.width_adjust_mobile{
+    width : 90vw; 
+}
 
 
 
@@ -94,6 +101,26 @@ nav {
 
 }
 
+
+/*Section accueil*/
+
+
+
+/*Section Qui sommes nous*/
+
+
+
+/*Projets*/
+
+
+
+/*Contact*/
+
+
+
+/*Footer*/
+
+
 .burger_menu ul{
 
     display : flex;
@@ -106,6 +133,39 @@ nav {
     
 
 }
+/* ----- Desktop view ----- */
+@media screen and (min-width : 768px) {
+
+    /*main page*/
+
+    .width_adjust_desktop {
+        /*TO DO en fonction de ce que ça donne*/
+    }
+}
+
+/* header */
+
+
+
+
+/* burger menu */
+
+
+
+/*Section accueil*/
+
+
+
+/*Section Qui sommes nous*/
+
+
+
+/*Projets*/
+
+
+
+/*Contact*/
+
 
 .menu_list{
     list-style: none;
@@ -114,6 +174,7 @@ nav {
     display : flex;
     
 
+/*Footer*/
 
 }
 
