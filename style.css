@@ -25,6 +25,18 @@ font-family: roboto;
 
 /* header */
 
+header{
+
+    position : fixed;
+    background-color: white;
+    width: 100vw;
+    height: 50px;
+    margin-top : 0px;
+    padding-top: 10px;
+    padding-left: 10px;    
+
+
+}
 
 .burger_icone{
 
@@ -45,6 +57,15 @@ font-family: roboto;
 .width_adjust_mobile{
     width : 90vw; 
 }
+
+/*Sections*/
+
+section{
+    margin: 0px auto 0px auto;
+    padding-top : 75px;
+}
+
+
 
 /*Section accueil*/
 
@@ -159,7 +180,15 @@ nav {
 }
 
 .margin_main_page_desktop {
-    margin: 100px auto 0 auto;
+
+
+}
+
+/*Sections*/
+
+section{
+    margin: 0px auto 0px auto;
+    padding-top : 100px;
 }
 
 
