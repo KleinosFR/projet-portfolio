@@ -1,6 +1,23 @@
-/* Main style */
+/* ----- Main style ----- */
+
+.width_adjust{
+
+    width : 90vw; 
+}
 
 
+
+/* burger menu */
+
+.burger_menu
+{
+display : none;
+
+}
+
+
+
+/* ----- Mobile view ----- */
 
 /* header */
 
@@ -15,17 +32,8 @@ display : none;
 
 
 
-}
 
-
-
-/* Mobile view */
-
-
-
-
-
-/* Desktop view */
+/* ----- Desktop view ----- */
 @media screen and (min-width : 768px)
 
 
