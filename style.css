@@ -11,14 +11,20 @@ font-family: roboto;
 
 }
 
+.position_main_page{   
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
 /* ----- Mobile view ----- */
 
+
 /* header */
 
-/* burger icon */
 
 .burger_icone{
 
@@ -30,23 +36,8 @@ font-family: roboto;
     margin: 0;
 }
 
-.position_main_page{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-
-/* ----- Desktop view ----- */
-@media screen and (min-width : 768px)
-{
-
-.wrapper{
-    margin-top : 100px;
-    padding-top : 0px;
+.burger_menu {
+    display: none;
 }
 
 /* main page */
@@ -55,6 +46,31 @@ font-family: roboto;
     width : 90vw; 
 }
 
+/*Section accueil*/
+
+
+
+/*Section Qui sommes nous*/
+
+
+
+
+/*Projets */
+
+.section_projets {
+
+}
+
+
+/*Contact*/
+
+
+
+/*Footer*/
+
+
+/* ----- Desktop view ----- */
+@media screen and (min-width : 768px){
 
 
     /* header */
@@ -91,7 +107,6 @@ nav {
 }
 
 
-/* burger menu */
 
 .burger_menu
 {
@@ -101,26 +116,6 @@ nav {
 
 }
 
-
-/*Section accueil*/
-
-
-
-/*Section Qui sommes nous*/
-
-
-
-/*Projets*/
-
-
-
-/*Contact*/
-
-
-
-/*Footer*/
-
-
 .burger_menu ul{
 
     display : flex;
@@ -129,53 +124,13 @@ nav {
     margin-left : 10px;
     margin-top : 0px;
     margin-bottom : 0px;
-
-    
-
 }
-/* ----- Desktop view ----- */
-@media screen and (min-width : 768px) {
-
-    /*main page*/
-
-    .width_adjust_desktop {
-        /*TO DO en fonction de ce que ça donne*/
-    }
-}
-
-/* header */
-
-
-
-
-/* burger menu */
-
-
-
-/*Section accueil*/
-
-
-
-/*Section Qui sommes nous*/
-
-
-
-/*Projets*/
-
-
-
-/*Contact*/
-
 
 .menu_list{
     list-style: none;
     margin-left : 20px;
     padding : 0px;
     display : flex;
-    
-
-/*Footer*/
-
 }
 
 .menu_list a{
@@ -195,6 +150,39 @@ nav {
     background-color:lightgrey;
 
 }
+
+
+/*main page*/
+
+.width_adjust_desktop {
+    /*TO DO en fonction de ce que ça donne*/
+}
+
+.margin_main_page_desktop {
+    margin: 100px auto 0 auto;
+}
+
+
+/*Section accueil*/
+
+
+
+/*Section Qui sommes nous*/
+
+
+
+/*Projets*/
+
+
+
+/*Contact*/
+
+
+
+/*Footer*/
+
+
+
 
 
 }
