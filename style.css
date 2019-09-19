@@ -1,0 +1,256 @@
+/* ----- Main style ----- */
+/*Couleurs : colors, background, affichage général*/
+
+.width_adjust{
+    width : 90vw; 
+}
+
+body{
+margin : 0px;
+font-family: roboto;
+
+}
+
+.position_main_page{   
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* ----- Mobile view ----- */
+
+
+/* header */
+
+header{
+
+    position : fixed;
+    background-color: white;
+    width: 100vw;
+    height: 50px;
+    margin-top : 0px;
+    padding-top: 10px;
+    padding-left: 10px;    
+
+
+}
+
+.burger_icone{
+
+    position : fixed;
+    top : 3px;
+    right : 20px;
+    opacity : 0.8;
+
+    margin: 0;
+}
+
+.burger_menu {
+    display: none;
+}
+
+/* main page */
+
+.width_adjust_mobile{
+    width : 90vw; 
+}
+
+/*Sections*/
+
+section{
+    margin: 0px auto 0px auto;
+    padding-top : 75px;
+}
+
+.section_affichage_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Section accueil*/
+
+
+
+/*Section Qui sommes nous*/
+
+
+
+
+/*Projets */
+
+.container_img_projets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_projets {
+    margin: 10px;
+}
+
+/*Contact*/
+
+
+.img_social_network {
+    margin: 50px 20px;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+/*Footer*/
+
+
+/* ----- Desktop view ----- */
+@media screen and (min-width : 768px){
+
+
+    /* header */
+
+header{
+
+    display : flex;
+    margin-top : 0px;
+    padding-top: 0px;
+    min-height: 75px;
+    box-shadow: 0px 5px 10px lightgrey;
+    position: fixed;
+    top:0px;
+    width:100vw;
+    background-color: white;
+
+}
+nav {
+    display : flex;
+}
+
+
+.logo_wcs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left : 10px;
+}
+
+/* hides burger icon */
+
+.burger_icone {
+
+    display : none;
+}
+
+
+
+.burger_menu
+{
+    display : flex;
+    align-items: stretch;
+
+
+}
+
+.burger_menu ul{
+
+    display : flex;
+    align-items : stretch;
+    padding : 0px;
+    margin-left : 10px;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+.menu_list{
+    list-style: none;
+    margin-left : 20px;
+    padding : 0px;
+    display : flex;
+}
+
+.menu_list a{
+
+    align-self: center;
+    text-decoration: none;
+    font-size : 20px;
+    color: black;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;   
+
+}
+
+.menu_list:hover{
+
+    background-color:lightgrey;
+
+}
+
+
+/*main page*/
+
+.width_adjust_desktop {
+    /*TO DO en fonction de ce que ça donne*/
+}
+
+.margin_main_page_desktop {
+
+
+}
+
+/*Sections*/
+
+section{
+    margin: 0px auto 0px auto;
+    padding-top : 100px;
+}
+
+
+/*Section accueil*/
+
+
+
+/*Section Qui sommes nous*/
+
+
+
+/*Projets*/
+
+.container_img_projets {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.img_projets {
+    margin: 30px;
+}
+
+.img_projets:hover {
+    box-shadow: 0px 5px 10px lightgrey;
+}
+
+/*Contact*/
+
+
+
+/*Footer*/
+
+
+
+
+
+}
+
