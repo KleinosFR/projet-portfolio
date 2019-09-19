@@ -54,7 +54,7 @@ header{
 /* main page */
 
 .width_adjust_mobile{
-    width : 90vw; 
+    width : 100vw; 
 }
 
 /*Sections*/
@@ -99,6 +99,8 @@ section{
 
 .img_social_network {
     margin: 50px 20px;
+    width : 70px;
+    height: 70px;
 }
 
 .contact_form {
@@ -116,7 +118,20 @@ textarea {
     height: 100px;
 }
 
+.icon_contact {
+    width : 70px;
+
+}
+
 /*Footer*/
+
+.icon_footer {
+
+    width: 50px;
+    height: 50px;
+    margin : 0px 5px;
+
+}
 
 
 /* ----- Desktop view ----- */
