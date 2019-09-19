@@ -19,7 +19,6 @@ font-family: roboto;
 }
 
 
-
 /* ----- Mobile view ----- */
 
 
@@ -92,6 +91,9 @@ section{
     margin: 10px;
 }
 
+.figcaption_projet{
+    text-align: center;
+}
 /*Contact*/
 
 
@@ -104,6 +106,8 @@ section{
 .contact_form {
     display: flex;
     flex-direction: column;
+    width: 300px;
+    margin-bottom: 50px;
 }
 
 label {
@@ -259,7 +263,9 @@ section{
 
 /*Contact*/
 
-
+.contact_form {
+    width: 700px;
+}
 
 /*Footer*/
 
