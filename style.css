@@ -65,7 +65,11 @@ section{
     padding-top : 75px;
 }
 
-
+.section_affichage_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*Section accueil*/
 
@@ -77,12 +81,6 @@ section{
 
 
 /*Projets */
-
-.section_projets {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .container_img_projets {
     display: flex;
@@ -97,6 +95,22 @@ section{
 /*Contact*/
 
 
+.img_social_network {
+    margin: 50px 20px;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+textarea {
+    height: 100px;
+}
 
 /*Footer*/
 
