@@ -1,0 +1,38 @@
+body {
+    font-family: 'Varela', sans-serif;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: 	#FF6347;
+}
+.orange {
+    font-family: 'Raleway', sans-serif;
+    color: 	#FF6347;
+    font-weight: bold;
+}
+.orange_titre {
+    font-family: 'Raleway', sans-serif;
+    color: 	#FF6347;
+    font-weight: bold;
+    font-size: 25px;
+}
+.encart h1 {
+    color: White;
+}
+p {
+    text-align: center;
+}
+.encart {
+    background-color:#39424e;
+}
+
+form {
+    text-align: center;
+}
+textarea {
+    padding: 20%;
+}
+
+.contenaire_social {
+    text-align: center;

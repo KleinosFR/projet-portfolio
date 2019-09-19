@@ -1,13 +1,15 @@
 <!DOCTYPE HTML>
 <html lang="fr">
    <head>
+    <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet"> <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:500,600,700|Varela+Round" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
       <meta charset="UTF-8">
-        <meta name='viewport'
-      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
         <title>Portfolio WCS</title>
         <meta name="author" content="Groupe Portfolio">
         <meta name="description" content="Portfolio des projets de la Session 2019 du campus Wild Code School de Biarritz">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylemain.css">
    </head>
     <body>
       <header>
@@ -26,13 +28,20 @@
       </header>
     <section id="Acceuil">
       <h1>Wild Code School</h1>
-      <img src="" alt="Photo Promo Wild Code School Septembre 2019"/>
+      <img src="/work/projet-1/images/promoSept2019.jpg" alt="Photo Promo Wild Code School Septembre 2019"/>
     </section>
     <section id="About_Us">
-      <h1>Qu'est ce que la Wild Code School?</h1>
+      <h1>Que faisons nous à la Wild Code School?</h1>
       <!--to do-->
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate omnis quod iste veniam porro dolorum sunt sint illo, eius ratione quas at placeat neque delectus maiores aut cupiditate ea cumque.</p>
+         <p>Le but de la <span class="orange">Wild Code School</span>est de former au métier de développeur,
+         tout en nous amenant à acquérir un certaine logique de réflexion,
+         afin de nous permettre de trouver par nous-mêmes les solutions à nos problèmes.
+         Ceci tout en collaborant les uns avec les autres : <span class="orange">"TOUS ENSEMBLES !!!"</span>
+         c'est pourquoi au-delà des quêtes hebdomadaires, des cours, des live coding...
+         l'école nous propose de réaliser plusieurs projets au cours de nos 5 mois de formation.
+         Nous allons donc vous présenter nos premiers projets...</p>
     </section>
+    <br>
     <section id="Projets">
       <h1>Projets Promo Septembre 2019</h1>
       <div>
@@ -43,51 +52,59 @@
         <a href=""><img src="" alt=""/></a>
       </div>
     </section>
-    <section id="Contact">
-      <h1>Comment nous contacter</h1>
-      <div class="social_network">
-          <a href=""><img src="" alt=""/></a>
-          <a href=""><img src="" alt=""/></a>
-          <a href=""><img src="" alt=""/></a>
-     </div>
+    <br>
+    
+      <br>
+      <section id="Contact">
+        <h1>Nous contacter</h1>
+        <div class="social_network">
+            <a href=""><img src="" alt=""/></a>
+            <a href=""><img src="" alt=""/></a>
+            <a href=""><img src="" alt=""/></a>
+        </div>
 
-     <div class="school_address">
+      <div class="school_address">
 
-      <!--TODO adresse, tel, mail-->
-       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, at adipisci modi, magnam iste dolorum ut, laudantium voluptatum dolore fugit dolorem! Sapiente minus quam temporibus fugit in accusantium, delectus eligendi.</p>
-       <form class="contact_form" action="contact.php" method="POST">
-          <label for="name">Nom : </label>
-          <input type="text" name="name"placeholder="Dupond">
-          <label for="firstname">Prénom : </label>
-          <input type="text" name="firstname"placeholder="Pierre">
-          <label for="email">Adresse email : </label>
-          <input type="email" name="email" placeholder="@">
-          <label for="nessage">Votre message : </label>
-          <textarea name="message" placeholder="Votre message"></textarea>
-          
-       
-        </form>
-     </div>
-    </section>
-    <footer>
-      <div class="contenaire_social">
-          </div class="logo_footer"></div>
+        <!--TODO adresse, tel, mail-->
+          <p>Campus</p>
+          <p class="orange_titre">Biarritz</p>
+          <p>27 route de Pitoys, 64600 Anglet</p>
+          <p>CAMPUS MANAGER ANGLET</p>
+          <p class="orange_titre">Marylou Moulon</p><p>+33 (0)7 76 38 22 32</p>
+          <p><a href="mailto:marylou@wildcodeschool.fr">marylou@wildecodeschool.fr</a></p>
+
+          <form class="contact_form" action="contact.php" method="POST">
+              <label for="name">Nom : </label>
+              <input type="text" name="name"placeholder="Dupond">
+              <label for="firstname">Prénom : </label>
+              <input type="text" name="firstname"placeholder="Pierre"><br>
+              <label for="email">Adresse email : </label>
+              <input type="email" name="email"placeholder="@"><br>
+              <label for="nessage">Votre message : </label><br>
+              <textarea class="cadre_centre" name="message" placeholder="Votre message"></textarea>
+          </form>
+      </div>
+      </section>
+    <div class="encart">
+      <footer>
+          <div class="contenaire_social">
+            <h1 class="encart">Nos réseaux favoris:</h1>
+            <a href=""><img src="/work/projet-1/images/logo_facebook.png" alt="Logo Facebook"/></a>
+            <a href=""><img src="/work/projet-1/images/logo_twitter.png" alt="Logo Twitter"/></a>
+            <a href=""><img src="/work/projet-1/images/logo_linkedin.png" alt="Logo Linkedin"/></a>
+            <a href=""><img src="/work/projet-1/images/logo_youtube.png" alt="Logo You Tube"/></a>
+            <a href=""><img src="/work/projet-1/images/logo_github.png" alt="Logo Github"/></a>
+            <a href=""><img src="/work/projet-1/images/logo_insta.png" alt="Logo Instagram"/></a>
+          </div>
+          <div class="logo_footer"></div>
           <div class="icones_reseaux"></div>
-
-      </div>
-      <div>
-        <h5>Contact :</h5>
-        <p>Campus Manager :<br>Marylou Moulon <br>07 76 38 22 32<br><a href="mailto:marylou@wildcodeschool.fr">marylou@wildecodeschool.fr</a></p>
-      </div>
-      <div>
+        <div>
           <ul>
             <li class="menu_list"><a href="#Accueil">Accueil</a></li>
             <li class="menu_list"><a href="#About_Us">Qui sommes nous?</a></li>
             <li class="menu_list"><a href="#Projets">Projets</a></li>
             <li class="menu_list"><a href="#Contact">Contact</a></li>
           </ul>
-      </div>
-    </footer>
-
-    </body>
-</html>
+        </div>
+      </footer>
+    </div>
