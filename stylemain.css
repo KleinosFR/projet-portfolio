@@ -36,3 +36,11 @@ textarea {
 
 .contenaire_social {
     text-align: center;
+}
+
+.footer_list {
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
