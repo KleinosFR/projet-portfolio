@@ -132,6 +132,11 @@ textarea {
 
 /*Footer*/
 
+footer{
+    padding-bottom : 20px;
+}
+
+
 .icon_footer {
 
     width: 50px;
@@ -139,6 +144,34 @@ textarea {
     margin : 0px 5px;
 
 }
+
+.footer_links{
+    display: flex;
+
+}
+
+.footer_links ul{
+    display : flex;
+    flex-direction: column;
+    margin: 20px auto 0px auto;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+.footer_links ul li{
+    display : flex;
+}
+
+.footer_links ul a{
+    margin: 20px auto 0px auto;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Varela', sans-serif;
+    color: white;
+    
+}
+
 
 
 /* ----- Desktop view ----- */
@@ -285,6 +318,20 @@ textarea {
 }
 
 /*Footer*/
+
+footer{
+
+    padding-bottom: 50px;
+
+}
+
+.footer_links ul{
+    flex-direction: row;
+
+}
+
+
+
 
 
 
