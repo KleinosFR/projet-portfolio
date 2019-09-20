@@ -6,6 +6,13 @@ h1 {
     text-align: center;
     color: 	#FF6347;
 }
+
+h2{
+    text-align: center;
+
+
+}
+
 .orange {
     font-family: 'Raleway', sans-serif;
     color: 	#FF6347;
@@ -30,9 +37,20 @@ p {
 form {
     text-align: center;
 }
-textarea {
-    padding: 20%;
-}
+
 
 .contenaire_social {
     text-align: center;
+}
+.image_projet{
+    display: flex;
+    margin: auto;
+    border: #FF6347 solid;
+}
+
+.footer_list {
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}

@@ -13,9 +13,9 @@
    </head>
     <body>
       <header>
-        <div class="logo_wcs"> <a href="index.html"><img src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png" alt="wild code school logo" width=100vw> </a> </div>
+        <div class="logo_wcs"> <a href="index.html"><img src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png" alt="wild code school logo"> </a> </div>
         <nav>
-          <div class="burger_icone"><img src="/images/menu_icon.png" alt="menu icon" width=50vw>  </div>
+          <div class="burger_icone"><img src="/images/menu_icon.png" alt="menu icon">  </div>
           <div class="burger_menu">
             <ul>
               <li class="menu_list"><a href="index.html">Accueil</a></li>
@@ -34,7 +34,7 @@
           <section id="About_Us">
             <h1>Que faisons nous à la Wild Code School?</h1>
             <!--to do-->
-            <p>Le but de la <span class="orange">Wild Code School </span>est de former au métier de développeur,
+            <p class="about_width">Le but de la <span class="orange">Wild Code School </span>est de former au métier de développeur,
             tout en nous amenant à acquérir un certaine logique de réflexion,
             afin de nous permettre de trouver par nous-mêmes les solutions à nos problèmes.
             Ceci tout en collaborant les uns avec les autres : <span class="orange">"TOUS ENSEMBLES !!!"</span>
@@ -45,38 +45,54 @@
           <section id="Projets" class="section_affichage_flex">
             <h1>Projets Promo Septembre 2019</h1>
             <div class="container_img_projets">
-              <a href="page-projet.html" title="En savoir plus"><img class="img_projets" src="https://via.placeholder.com/300x200?text=Projet+à+venir"></a>
-              <a href="page-projet.html" title="En savoir plus"><img class="img_projets" src="https://via.placeholder.com/300x200?text=Projet+à+venir" alt="placeholder"/></a>
-              <a href="page-projet.html" title="En savoir plus"><img class="img_projets" src="https://via.placeholder.com/300x200?text=Projet+à+venir" alt="placeholder"/></a>
-              <a href="page-projet.html" title="En savoir plus"><img class="img_projets" src="https://via.placeholder.com/300x200?text=Projet+à+venir" alt="placeholder"/></a>
-              <a href="page-projet.html" title="En savoir plus"><img class="img_projets" src="https://via.placeholder.com/300x200?text=Projet+à+venir" alt="placeholder"/></a>
+              <figure>
+                <a href="page-projet1_1.html" title="En savoir plus"><img class="img_projets" src="/images/images_projets/Screenshot_WebAssembly.png" alt="screenshot projet assemplée du web"></a>
+                <figcaption class="figcaption_projet">L’assemblée du Web : <br>La fin du JavaScript ??</figcaption>
+              </figure>
+              <figure>
+               <a href="page-projet1_2.html" title="En savoir plus"><img class="img_projets" src="/images/images_projets/Screenshot_wild&co.png" alt="screenshot projet wild&co"/></a>
+               <figcaption class="figcaption_projet">Wild & Co. <br>C’est le moment de trouver ton stage</figcaption>
+              </figure>
+              <figure>
+                <a href="page-projet1_3.html" title="En savoir plus"><img class="img_projets" src="/images/images_projets/Screenshot_book.png" alt="placeholder"/></a>
+                <figcaption class="figcaption_projet">Le Book des Wilders : <br>Savoir tout sur tout le monde</figcaption>
+              </figure>
+              <figure>
+                <a href="page-projet1_5.html" title="En savoir plus"><img class="img_projets" src="/images/images_projets/Screenshot_portfolio.png" alt="screenshot projet portfolio"/></a>
+                <figcaption class="figcaption_projet">Portfolio du campus : <br>Pour présenter vos projets</figcaption>
+              </figure>
+              <figure>
+                <a href="page-projet1_4.html" title="En savoir plus"><img class="img_projets" src="/images/images_projets/Screenshot_Illuminati.png" alt="screenshot projet complot illuminati"/></a>
+                <figcaption class="figcaption_projet">Le complot Illuminati : <br>Sont-ils vraiment partout ?</figcaption>
+              </figure>
             </div>
           </section>
           <section id="Contact" class="section_affichage_flex">
-            <h1>Comment nous contacter</h1>
-            <div class="social_network">
-                <a href=""><img class="img_social_network" src="/images/logo_facebook.png" alt="placeholder"/></a>
-                <a href=""><img class="img_social_network" src="/images/logo_github.png" alt="placeholder"/></a>
-                <a href=""><img class="img_social_network" src="/images/logo_insta.png" alt="placeholder"/></a>
-            </div>
-            <div class="school_address">
-              <p>Campus</p>
-              <p class="orange_titre">Biarritz</p>
-              <p>27 route de Pitoys, 64600 Anglet</p>
-              <p>CAMPUS MANAGER ANGLET</p>
-              <p class="orange_titre">Marylou Moulon</p><p>+33 (0)7 76 38 22 32</p>
-              <p><a href="mailto:marylou@wildcodeschool.fr">marylou@wildecodeschool.fr</a></p>
+              <h1>Comment nous contacter</h1>
+              <div class="social_network">
+                <a href=""><img class="img_social_network" src="/images/logo_facebook_orange.png" alt="placeholder"/></a>
+                <a href=""><img class="img_social_network" src="/images/logo_github_orange.png" alt="placeholder"/></a>
+                <a href=""><img class="img_social_network" src="/images/logo_insta_orange.png" alt="placeholder"/></a>
+              </div>
+
+              <div class="school_address">
+                <p>Campus</p>
+                <p class="orange_titre">Biarritz</p>
+                <p>27 route de Pitoys, 64600 Anglet</p>
+                <p>CAMPUS MANAGER ANGLET</p>
+                <p class="orange_titre">Marylou Moulon</p><p>+33 (0)7 76 38 22 32</p>
+                <p><a href="mailto:marylou@wildcodeschool.fr">marylou@wildecodeschool.fr</a></p>
+              </div>
               <form class="contact_form" action="contact.php" method="POST">
                 <label for="name">Nom : </label>
-                <input type="text" name="name"placeholder="Dupond">
+                <input id="name" type="text" name="name" placeholder="Dupond">
                 <label for="firstname">Prénom : </label>
-                <input type="text" name="firstname"placeholder="Pierre">
+                <input id= "firstname" type="text" name="firstname" placeholder="Pierre">
                 <label for="email">Adresse email : </label>
-                <input type="email" name="email" placeholder="@">
-                <label for="nessage">Votre message : </label>
-                <textarea name="message" placeholder="Votre message"></textarea>
+                <input id="email" type="email" name="email" placeholder="@">
+                <label for="message">Votre message : </label>
+                <textarea id="message" name="message" placeholder="Votre message"></textarea>
               </form>
-          </div>
           </section>
           <div class="encart">
             <footer>
@@ -91,12 +107,12 @@
               </div>
             <div class="logo_footer"></div>
             <div class="icones_reseaux"></div>
-        <div>
-          <ul>
-            <li class="footer_list"><a href="#index.html">Accueil</a></li>
-            <li class="footer_list"><a href="#About_Us">Qui sommes nous?</a></li>
-            <li class="footer_list"><a href="#Projets">Projets</a></li>
-            <li class="footer_list"><a href="#Contact">Contact</a></li>
+        <div class="footer_links width_adjust_mobile">
+          <ul class="width_adjust_mobile">
+            <li class="footer_list width_adjust_mobile"><a href="index.html">Accueil</a></li>
+            <li class="footer_list width_adjust_mobile"><a href="#About_Us">Qui sommes nous?</a></li>
+            <li class="footer_list width_adjust_mobile"><a href="#Projets">Projets</a></li>
+            <li class="footer_list width_adjust_mobile"><a href="#Contact">Contact</a></li>
           </ul>
         </div>
             </footer>
