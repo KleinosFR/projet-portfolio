@@ -94,6 +94,8 @@ section{
 
 .img_projets {
     margin: 10px;
+    width: 300px;
+    height: 200px;
 }
 
 .figcaption_projet{
@@ -309,6 +311,10 @@ section{
 
 .contact_form {
     width: 700px;
+}
+
+textarea {
+    height: 200px;
 }
 
 /*Footer*/
