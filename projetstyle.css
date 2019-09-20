@@ -1,6 +1,59 @@
+
+.button_container{
+
+    display : flex;
+}
+
+
+.return_button
+{
+    margin : 10px auto;
+    padding : 10px;
+    background-color: #FF6347;
+    border-radius: 5px;
+    color : white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+@media screen and (min-width : 768px){
+
+
 .project_content{
 
     display : flex;
+    width : 100vw;
+    padding : 0px 20px;
+    
+}
+
+.project_content img{
+
+    width : 60%;
+
+}
+
+.project_text{
+
+    width : 40%;
+    padding : 0px 20px;
+
+}
+
+.project_text p{
+
+    text-align: left;
+}
+
+.return_button{
+
+    display: none;
+
+}
 
 
 }
