@@ -37,14 +37,26 @@ header{
 
 }
 
+.logo_wcs a img {
+
+    max-height: 50px;
+
+}
+
 .burger_icone{
 
     position : fixed;
     top : 3px;
     right : 20px;
     opacity : 0.8;
-
     margin: 0;
+}
+
+
+.burger_icone img{
+
+    width : 50px;
+
 }
 
 .burger_menu {
@@ -205,6 +217,9 @@ nav {
     justify-content: center;
     margin-left : 10px;
 }
+
+
+
 
 /* hides burger icon */
 
