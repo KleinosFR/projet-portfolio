@@ -35,6 +35,10 @@ form {
 .contenaire_social {
     text-align: center;
 }
+.image_projet{
+    display: flex;
+    margin: auto;
+}
 
 .footer_list {
 
