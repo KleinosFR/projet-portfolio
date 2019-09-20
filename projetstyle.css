@@ -16,7 +16,11 @@
     font-weight: bold;
 }
 
+.project_content img{
 
+    max-width: 60vw;
+
+}
 
 
 
@@ -47,6 +51,7 @@
 .project_text p{
 
     text-align: left;
+    margin-bottom: 50px;
 }
 
 .return_button{

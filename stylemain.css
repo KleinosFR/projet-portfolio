@@ -45,6 +45,7 @@ form {
 .image_projet{
     display: flex;
     margin: auto;
+    border: #FF6347 solid;
 }
 
 .footer_list {
