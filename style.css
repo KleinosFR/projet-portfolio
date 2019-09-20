@@ -2,7 +2,7 @@
 /*Couleurs : colors, background, affichage général*/
 
 .width_adjust{
-    width : 90vw; 
+    width : 100vw; 
 }
 
 body{
@@ -54,7 +54,7 @@ header{
 /* main page */
 
 .width_adjust_mobile{
-    width : 100vw; 
+    width : 100%; 
 }
 
 /*Sections*/
@@ -72,7 +72,12 @@ section{
 
 /*Section accueil*/
 
-
+.about_width{
+    
+    width : 75%;
+    margin : 0px auto;
+    text-align : justify;
+}
 
 /*Section Qui sommes nous*/
 
@@ -89,6 +94,8 @@ section{
 
 .img_projets {
     margin: 10px;
+    width: 300px;
+    height: 200px;
 }
 
 .figcaption_projet{
@@ -125,6 +132,11 @@ textarea {
 
 /*Footer*/
 
+footer{
+    padding-bottom : 20px;
+}
+
+
 .icon_footer {
 
     width: 50px;
@@ -132,6 +144,34 @@ textarea {
     margin : 0px 5px;
 
 }
+
+.footer_links{
+    display: flex;
+
+}
+
+.footer_links ul{
+    display : flex;
+    flex-direction: column;
+    margin: 20px auto 0px auto;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+.footer_links ul li{
+    display : flex;
+}
+
+.footer_links ul a{
+    margin: 20px auto 0px auto;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Varela', sans-serif;
+    color: white;
+    
+}
+
 
 
 /* ----- Desktop view ----- */
@@ -239,6 +279,12 @@ section{
 
 /*Section accueil*/
 
+.about_width{
+    
+    width : 50%;
+    margin : 0px auto;
+    text-align : justify;
+}
 
 
 /*Section Qui sommes nous*/
@@ -267,7 +313,25 @@ section{
     width: 700px;
 }
 
+textarea {
+    height: 200px;
+}
+
 /*Footer*/
+
+footer{
+
+    padding-bottom: 50px;
+
+}
+
+.footer_links ul{
+    flex-direction: row;
+
+}
+
+
+
 
 
 

@@ -30,9 +30,7 @@ p {
 form {
     text-align: center;
 }
-textarea {
-    padding: 20%;
-}
+
 
 .contenaire_social {
     text-align: center;
@@ -41,4 +39,10 @@ textarea {
     display: flex;
     margin: auto;
 }
+
+.footer_list {
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
 }
