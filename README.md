@@ -1,6 +1,6 @@
-## projet-porfolio
+# projet-porfolio
 
-# TODO :
+## TODO :
 
 * insert links to wilders book website
 * insert links to projects websites
