@@ -60,6 +60,8 @@ header{
 
 }
 
+/*--- added for burger menu --*/
+
 .burger_menu {
     display: none;
     position : fixed;
@@ -229,7 +231,7 @@ footer{
 
 
 
-/* ----- Desktop view ----- */
+/* --------------- Desktop view -------------------------- */
 @media screen and (min-width : 768px){
 
 
@@ -270,19 +272,22 @@ nav {
     display : none;
 }
 
-
+/* shows menu in row */
 
 .burger_menu
 {
     display : flex;
+    position: relative;
+    flex-direction: row;
     align-items: stretch;
-
-
+    background-color: white;
+    top:0px;
 }
 
 .burger_menu ul{
 
     display : flex;
+    flex-direction: row;
     align-items : stretch;
     padding : 0px;
     margin-left : 10px;
