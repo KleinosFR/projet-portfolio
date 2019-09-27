@@ -50,6 +50,7 @@ header{
     right : 20px;
     opacity : 0.8;
     margin: 0;
+    z-index: 10;
 }
 
 
@@ -59,8 +60,63 @@ header{
 
 }
 
+/*--- added for burger menu --*/
+
 .burger_menu {
     display: none;
+    position : fixed;
+    top : 70px;
+    left : 0px;
+    width: 100vw;
+    opacity : 0.9;
+    margin: 0;
+    z-index: 10;
+    background-color: white;
+    color: #39424e;
+    font-size: 24px;
+    padding-bottom: 10px;
+
+}
+
+.burger_menu ul{
+
+    display : flex;
+    flex-direction: column;
+    align-items : center;
+    width : 100vw;
+    padding : 0px;
+    margin-left : 10px;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+.menu_list{
+    list-style: none;
+    margin-left : 0px;
+    padding : 0px;
+    display : flex;
+    justify-content: flex-end;
+}
+
+
+.menu_list a{
+
+/* align-self: center;*/
+    text-decoration: none;
+    color: #39424e;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top : 10px;   
+
+}
+
+#closeBurgerIcon{
+    display: inherit;
+    margin-top : 0px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right : 15px;
 }
 
 /* main page */
@@ -187,7 +243,7 @@ footer{
 
 
 
-/* ----- Desktop view ----- */
+/* --------------- Desktop view -------------------------- */
 @media screen and (min-width : 768px){
 
 
@@ -228,19 +284,27 @@ nav {
     display : none;
 }
 
+#closeBurgerIcon{
+    display: none;
 
+}
+
+/* shows menu in row */
 
 .burger_menu
 {
     display : flex;
+    position: relative;
+    flex-direction: row;
     align-items: stretch;
-
-
+    background-color: white;
+    top:0px;
 }
 
 .burger_menu ul{
 
     display : flex;
+    flex-direction: row;
     align-items : stretch;
     padding : 0px;
     margin-left : 10px;
@@ -261,9 +325,7 @@ nav {
     text-decoration: none;
     font-size : 20px;
     color: black;
-    font-weight: normal;
-    padding-left: 10px;
-    padding-right: 10px;   
+    margin-top :0px;   
 
 }
 
