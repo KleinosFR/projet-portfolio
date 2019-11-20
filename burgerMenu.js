@@ -18,7 +18,7 @@ burgerIconContainer.addEventListener("click", () => {
     console.log(screenWidth);
     if (isBurgerClosed && screenWidth < 768){
       burgerMenu.style.display = "flex";
-      burgerIconContainer.innerHTML = '<img id="burgerIcon" src="images/logo_insta_noir.png" alt="menu icon">'
+      burgerIconContainer.innerHTML = '<img id="burgerIcon" src="images/menu_close.png" alt="menu icon">'
       isBurgerClosed = false;
       console.log(isBurgerClosed);
     }
