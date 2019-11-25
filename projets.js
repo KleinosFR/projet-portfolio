@@ -6,6 +6,7 @@ const projects = [
         title: "L'assemblée du web : la fin du Javascript ??",
         image: "images/images_projets/Screenshot_WebAssembly.png",
         descriptionModal: "",
+        auteurs: "Lucas, Fanny, Frédérique",
         url: "",
         type: "projet-1",
         idTarget: "containerProjects1"
@@ -16,8 +17,9 @@ const projects = [
         idCloseModal: "closeModal2",
         title: "Wild & Co. C’est le moment de trouver ton stage",
         image: "images/images_projets/Screenshot_wild&co.png",
-        descriptionModal: "",
-        url: "",
+        descriptionModal: "Ce site a pour but de référencer les entreprises tech du Pays Basque. L’objectif est de donner une vision sur l'écosystème tech du BAB et de ses alentours aux wilders et de leur permettre de trouver un stage et/ou un emploi.",
+        auteurs: "Lorraine, Adrien, Monia, Jules",
+        url: "https://lorrainedamiens.github.io/Projet-1_Wild-Co/",
         type: "projet-1",
         idTarget: "containerProjects1"
     },
@@ -28,6 +30,7 @@ const projects = [
         title: "Le Book des Wilders : savoir tout sur tout le monde",
         image: "images/images_projets/Screenshot_book.png",
         descriptionModal: "",
+        auteurs: "Christelle, Déborah, Sunny, Christine, Maxime",
         url: "https://sunnypritchard.github.io/Wild_Book_sept19/",
         type: "projet-1",
         idTarget: "containerProjects1"
@@ -39,6 +42,7 @@ const projects = [
         title: "Le complot Illuminati : sont-ils vraiment partout ?",
         image: "images/images_projets/Screenshot_Illuminati.png",
         descriptionModal: "",
+        auteurs: "Pierre-Julien, Anne-Claire, Laëtitia, Aurélien",
         url: "https://lecomte-pj.github.io/projet-blog-2019-09-20-semaine-2/index.html",
         type: "projet-1",
         idTarget: "containerProjects1"
@@ -49,7 +53,8 @@ const projects = [
         idCloseModal: "closeModal5",
         title: "Portfolio du campus : pour présenter vos projets",
         image: "images/images_projets/Screenshot_portfolio.png",
-        descriptionModal: "",
+        descriptionModal: "Portfolio des projets de la Session 2019 du campus Wild Code School de Biarritz.",
+        auteurs: "Stéphane, Angélique, Fred, Dominic",
         url: "https://wcs-sept2019-portfolio.netlify.com/",
         type: "projet-1",
         idTarget: "containerProjects1"
@@ -61,13 +66,14 @@ const hackathon = projects.filter(project => project.type === "hackathon");
 const projects2 = projects.filter(project => project.type === "projet-2");
 
 class Projet {
-    constructor(id, idModal, idCloseModal, title, image, descriptionModal, url, type, idTarget) {
+    constructor(id, idModal, idCloseModal, title, image, descriptionModal, auteurs, url, type, idTarget) {
         this.id = id;
         this.idModal = idModal;
         this.idCloseModal = idCloseModal;
         this.title = title;
         this.image = image;
         this.descriptionModal = descriptionModal;
+        this.auteurs = auteurs;
         this.url = url;
         this.type = type;
         this.idTarget = idTarget;
@@ -91,7 +97,8 @@ class Projet {
                     <div class="container-description-modal">
                         <h2>${projet.title}</h2>
                         <p>${projet.descriptionModal}</p>
-                        ${voirProjet}
+                        <p>Equipe : ${projet.auteurs}</p>
+                        <p>${voirProjet}</p>
                     </div>
                 </div>
             </div>
