@@ -5,9 +5,9 @@ const projects = [
         idCloseModal: "closeModal1",
         title: "L'assemblée du web : la fin du Javascript ??",
         image: "images/images_projets/Screenshot_WebAssembly.png",
-        descriptionModal: "",
+        descriptionModal: "Le but de ce projet est de créer un blog sur le fonctionnement de WebAssembly.",
         auteurs: "Lucas, Fanny, Frédérique",
-        url: "",
+        url: "https://github.com/lucas240/projet-1",
         type: "projet-1",
         idTarget: "containerProjects1"
     },
@@ -58,6 +58,66 @@ const projects = [
         url: "https://wcs-sept2019-portfolio.netlify.com/",
         type: "projet-1",
         idTarget: "containerProjects1"
+    }, 
+    {
+        id: "card6",
+        idModal: "modal6",
+        idCloseModal: "closeModal6",
+        title: "Battle Monsters",
+        image: "images/images_projets/wildMonsters.jpg",
+        descriptionModal: "Hackathon de 24h sur le thème de Halloween : création d'un jeu de combat de monstres à partir d'une API existante et modification de l'API. Travail collaboratif entre deux membres JS/React et 3 membres PHP",
+        auteurs: "Equipe PHP : Pierre-Julien, Lorraine, Adrien ; équipe JS/React : Stéphane, Angélique",
+        url: "http://wildmonstersbattle.herokuapp.com/",
+        type: "hackathon",
+        idTarget: "containerHackathon"
+    },
+    {
+        id: "card7",
+        idModal: "modal7",
+        idCloseModal: "closeModal7",
+        title: "Jeu de combat de monstres",
+        image: "images/images_projets/Screenshot_hackathonLucas.png",
+        descriptionModal: "Hackathon de 24h sur le thème de Halloween : création d'un jeu de combat de monstres à partir d'une API existante. Travail collaboratif entre deux membres JS/React.",
+        auteurs: "Equipe : Lucas, Monia",
+        url: "https://battle-monsters.netlify.com/",
+        type: "hackathon",
+        idTarget: "containerHackathon"
+    },
+    {
+        id: "card8",
+        idModal: "modal8",
+        idCloseModal: "closeModal8",
+        title: "Treats or Movies",
+        image: "",
+        descriptionModal: "Hackathon de 24h sur le thème de Halloween : ",
+        auteurs: "Equipe : Jules, Clara, Frédérique, Dominique",
+        url: "",
+        type: "hackathon",
+        idTarget: "containerHackathon"
+    },
+    {
+        id: "card9",
+        idModal: "modal9",
+        idCloseModal: "closeModal9",
+        title: "CrazyClickers",
+        image: "images/images_projets/crazyclickers.png",
+        descriptionModal: "Réalisation d'un jeu de navigateur, un clicker game avec classement des joueurs en temps réel.",
+        auteurs: "Equipe : Monia, Frédérique, Angélique",
+        url: "https://crazyclicker.netlify.com/",
+        type: "projet-2",
+        idTarget: "containerProjects2"
+    },
+    {
+        id: "card10",
+        idModal: "modal10",
+        idCloseModal: "closeModal10",
+        title: "Git Wild",
+        image: "images/images_projets/gitWild.png",
+        descriptionModal: "Une interface simple qui permet de gérer ses dépôts hébergés sur Github.",
+        auteurs: "Equipe : Stéphane, Lucas, Dominique",
+        url: "https://gitwild.netlify.com/",
+        type: "projet-2",
+        idTarget: "containerProjects2"
     }
 ]
 
@@ -125,5 +185,11 @@ projects1.forEach((projet) => {
     const newProjet = new Projet(`${projet.id}`, `${projet.idModal}`, `${projet.idCloseModal}`, `${projet.title}`, `${projet.image}`, `${projet.descriptionModal}`, `${projet.url}`, `${projet.type}, ${projet.idTarget}`);
     newProjet.displayProjects(projet);
 })
-hackathon.forEach(displayProjects)
-projects2.forEach(displayProjects)
+hackathon.forEach((projet) => {
+    const newProjet = new Projet(`${projet.id}`, `${projet.idModal}`, `${projet.idCloseModal}`, `${projet.title}`, `${projet.image}`, `${projet.descriptionModal}`, `${projet.url}`, `${projet.type}, ${projet.idTarget}`);
+    newProjet.displayProjects(projet);
+})
+projects2.forEach((projet) => {
+    const newProjet = new Projet(`${projet.id}`, `${projet.idModal}`, `${projet.idCloseModal}`, `${projet.title}`, `${projet.image}`, `${projet.descriptionModal}`, `${projet.url}`, `${projet.type}, ${projet.idTarget}`);
+    newProjet.displayProjects(projet);
+})
