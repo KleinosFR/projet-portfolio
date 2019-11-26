@@ -29,8 +29,10 @@ const projects = [
         idCloseModal: "closeModal3",
         title: "Le Book des Wilders : savoir tout sur tout le monde",
         image: "images/images_projets/Screenshot_book.png",
+
         descriptionModal: "",
         auteurs: "Christelle, Déborah, Sunny, Christine, Maxime",
+
         url: "https://sunnypritchard.github.io/Wild_Book_sept19/",
         type: "projet-1",
         idTarget: "containerProjects1"
@@ -41,8 +43,10 @@ const projects = [
         idCloseModal: "closeModal4",
         title: "Le complot Illuminati : sont-ils vraiment partout ?",
         image: "images/images_projets/Screenshot_Illuminati.png",
+
         descriptionModal: "",
         auteurs: "Pierre-Julien, Anne-Claire, Laëtitia, Aurélien",
+
         url: "https://lecomte-pj.github.io/projet-blog-2019-09-20-semaine-2/index.html",
         type: "projet-1",
         idTarget: "containerProjects1"
@@ -53,8 +57,10 @@ const projects = [
         idCloseModal: "closeModal5",
         title: "Portfolio du campus : pour présenter vos projets",
         image: "images/images_projets/Screenshot_portfolio.png",
+
         descriptionModal: "Portfolio des projets de la Session 2019 du campus Wild Code School de Biarritz.",
         auteurs: "Stéphane, Angélique, Fred, Dominic",
+
         url: "https://wcs-sept2019-portfolio.netlify.com/",
         type: "projet-1",
         idTarget: "containerProjects1"
