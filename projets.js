@@ -84,7 +84,7 @@ const projects = [
         title: "Jeu de combat de monstres",
         image: "images/images_projets/Screenshot_hackathonLucas.png",
         descriptionModal: "Hackathon de 24h sur le thème de Halloween : création d'un jeu de combat de monstres à partir d'une API existante. Travail collaboratif entre deux membres JS/React.",
-        auteurs: "Equipe : Lucas, Monia",
+        auteurs: "Lucas, Monia",
         url: "https://battle-monsters.netlify.com/",
         type: "hackathon",
         idTarget: "containerHackathon"
@@ -96,7 +96,7 @@ const projects = [
         title: "Treats or Movies",
         image: "",
         descriptionModal: "Hackathon de 24h sur le thème de Halloween : ",
-        auteurs: "Equipe : Jules, Clara, Frédérique, Dominique",
+        auteurs: "Jules, Clara, Frédérique, Dominique",
         url: "",
         type: "hackathon",
         idTarget: "containerHackathon"
@@ -108,7 +108,7 @@ const projects = [
         title: "CrazyClickers",
         image: "images/images_projets/crazyclickers.png",
         descriptionModal: "Réalisation d'un jeu de navigateur, un clicker game avec classement des joueurs en temps réel.",
-        auteurs: "Equipe : Monia, Frédérique, Angélique",
+        auteurs: "Monia, Frédérique, Angélique",
         url: "https://crazyclicker.netlify.com/",
         type: "projet-2",
         idTarget: "containerProjects2"
@@ -120,7 +120,7 @@ const projects = [
         title: "Git Wild",
         image: "images/images_projets/gitWild.png",
         descriptionModal: "Une interface simple qui permet de gérer ses dépôts hébergés sur Github.",
-        auteurs: "Equipe : Stéphane, Lucas, Dominique",
+        auteurs: "Stéphane, Lucas, Dominique",
         url: "https://gitwild.netlify.com/",
         type: "projet-2",
         idTarget: "containerProjects2"
