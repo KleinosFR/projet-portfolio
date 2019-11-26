@@ -388,6 +388,73 @@ section{
     box-shadow: 0px 5px 10px lightgrey;
 }
 
+/*---Modals---*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px 20px 40px 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 75%;
+    overflow: auto;
+}
+
+.container-modal-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.close {
+    align-self: flex-end;
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.img-modal {
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    
+    .container-modal-content {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .container-img-modal {
+        flex: 1;
+    }
+
+    .container-description-modal {
+        flex: 1;
+        margin-right: 20px;
+    }
+}
+
 /*Contact*/
 
 .contact_form {
