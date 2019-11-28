@@ -94,10 +94,10 @@ const projects = [
         idModal: "modal8",
         idCloseModal: "closeModal8",
         title: "Treats or Movies",
-        image: "",
+        image: "images/images_projets/Screenshot_treat_or_movies.png",
         descriptionModal: "Hackathon de 24h sur le thème de Halloween : ",
         auteurs: "Jules, Clara, Frédérique, Dominique",
-        url: "",
+        url: "https://eager-bhaskara-c73af4.netlify.com/",
         type: "hackathon",
         idTarget: "containerHackathon"
     },
